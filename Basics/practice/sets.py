@@ -10,4 +10,16 @@ print(c)
 e={1, 1, 3, 4, 5} # sets can't store duplicates
 print(e)
 
+f= e.copy()
+print(f)
+
+e.add(6)
+print(e)
+
+g=e.difference(f)
+print(g)
+
+
+
+
 
