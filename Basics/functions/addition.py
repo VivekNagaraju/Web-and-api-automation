@@ -1,9 +1,10 @@
-# def say_hello(name):
-#     print("hello.. welcome!", name)
-#
-#
-#
-# name=input("Please enter your name:")
+def say_hello():
+    name=input("Please enter your name:")
+    print("hello.. welcome!", name)
+
+
+
+
 # say_hello(name)
 
 def sum(a, b):
@@ -14,11 +15,12 @@ def sum(a, b):
 # sum(2, 3)
 # sum(b=-8, a=7)
 
-def sample(*a):
-    for i in a:
+def sample(**a):
+    print(a)
+    for i in a.values():
         print(i)
 
 
-sample(2, 3, 4)
+# sample(a=2, b=3, c=4)
 
 

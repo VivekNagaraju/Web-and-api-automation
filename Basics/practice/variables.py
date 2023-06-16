@@ -1,3 +1,9 @@
+from functions import addition as a
+
+a.sum(2, 4)
+
+
+
 a = 2 #declaring single variable
 print(a)
 print(id(a))
