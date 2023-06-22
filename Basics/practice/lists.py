@@ -1,12 +1,12 @@
-# a = [1, 2, 6, 1, 5] #lists can store duplicates
+a = [1, 2, 6, 1, 5] #lists can store duplicates
 # print(a)
 # a[2]=8
 # print(a) # list can be mutable
 
 '''List is heterogenous'''
-# b = [1, 2, 3.0, 4.556, "abc"]
+b = [1, 2, 3.0, 4.556, "abc"]
 # print(b)
-
+print(a+b)
 # c=list(range(1, 6))
 # print(c)
 # print(type(c))
@@ -29,12 +29,12 @@
 
 # a.append(b)
 # print(a)
-    
+
 # a.extend(b)  
 # print(a) 
 
 # print(a+c)
-# print(a*2)
+print(a*2)
 
 # print(a==c)
 # print(a>c)
@@ -49,8 +49,8 @@
 # d=[i+1 for i in a]
 # print(d)
 
-e=[]
-print(type(e))
+# e=[]
+# print(type(e))
  
     
     
