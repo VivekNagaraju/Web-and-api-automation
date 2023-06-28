@@ -1,0 +1,4 @@
+2023-06-28 07:37:46,563:INFO:This is info
+2023-06-28 07:37:46,573:WARNING:This is warning
+2023-06-28 07:37:46,573:ERROR:This is error message
+2023-06-28 07:37:46,576:CRITICAL:This is fatal message
